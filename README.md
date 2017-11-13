@@ -4,10 +4,8 @@ In this lab  [Emerging Technologies](https://github.com/emerging-technologies/em
 
 **_For more: [Lab Instructions](https://emerging-technologies.github.io/problems/project.html)_**
 
-##_*How to run_* 
-##_*Iris Dataset_*
-##_*Tensorflow_*
-##_*_*
-##_*_*
-##_*_*
+##**_How to run_**   
+##**_Iris Dataset_**
+##**_Tensorflow_**
+
 ## References
