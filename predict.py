@@ -5,7 +5,7 @@ import numpy as np
 
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
-
+#Then, we'll import the CNN layers from Keras. These are the convolutional layers that will help us efficiently train on image data:
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
 from keras.optimizers import SGD
