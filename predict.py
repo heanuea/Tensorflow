@@ -49,3 +49,8 @@ for i in range(len(predict)):
     guess = iris.target_names[np.argmax(predict[i])]
     actual = iris.target_names[y_train[i]]
     print("Predict: {},\nActual: {},\nIs it Correct: {}\n".format(guess, actual, guess==actual))
+
+# to save a model in keras you use this 
+# model.save(filepath)
+
+model.save('my_model.h5') 
