@@ -13,5 +13,5 @@ In this lab  [Emerging Technologies](https://github.com/emerging-technologies/em
 ## **_Tensorflow_**
 
 ## **_References_**
-> https://github.com/emerging-technologies/keras-iris/blob/master/iris_nn.py
-> https://keras.io/
+- https://github.com/emerging-technologies/keras-iris/blob/master/iris_nn.py
+- https://keras.io/
