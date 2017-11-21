@@ -43,7 +43,9 @@ Predicted attribute: class of iris plant.
 This is an exceedingly simple domain. 
 
 This data differs from the data presented in Fishers article (identified by Steve Chadwick, spchadwick '@' espeedaz.net ). The 35th sample should be: 4.9,3.1,1.5,0.2,"Iris-setosa" where the error is in the fourth feature. The 38th sample: 4.9,3.6,1.4,0.1,"Iris-setosa" where the errors are in the second and third features.
+
  ![Alt text](iris_petal_sepal.png?raw=true "Title")
+
 **Attribute Information:**
 
 1. sepal length in cm 
@@ -60,6 +62,8 @@ This data differs from the data presented in Fishers article (identified by Stev
 **_The Keras library in Python makes building and testing neural networks a snap. It provides a simpler, quicker alternative to [Theano](http://deeplearning.net/software/theano/) or TensorFlow–without worrying about floating point operations, GPU programming, linear algebra, etc._**
 
 Keras has been around for a while and predates TensorFlow becoming open source. Keras originally supported Theano, which, like TensorFlow, is a framework that supports deep learning. But soon after TensorFlow was open sourced, Keras added support for TensorFlow. You can use Keras with many types of machine learning problems, but it is focused on the needs of neural networks in general and deep neural networks specifically. Also, Keras is expanding to support other frameworks, such as Microsoft CNTK.
+
+ ![Alt text](Keras.jpg?raw=true "Title")
 
  Keras is based on a model object. The model object acts as a framework to which layers are added. There are two primary types of model objects. The first is the sequence, which is a stack of layers where each layer feeds the next. For more complex structures, there is a functional API which lets you create your own relationship between layers. After you create your model object, you add layers to it. As required, you set parameters for each layer. And all of the interconnection between the layers are handled by Keras. Once you have your model object populated with layers, you call the model object's compile method. During this compile process, a TensorFlow graph with appropriate operators and tensors is created. After compiling, fit method is called to train the model. And finally, the evaluate method is called to evaluate the trained model's performance.
 
